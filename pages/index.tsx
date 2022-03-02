@@ -102,7 +102,7 @@ const Home: NextPage = () => {
     p5.line(0, posY_1 - y_1, size, posY_1 - y_1);
 
     if (t < p5.TWO_PI) curve.addPoint(new Point(posX_2 + x_2, posY_1 - y_1));
-    t += 0.02;
+    t += 0.001;
   };
 
   return (
